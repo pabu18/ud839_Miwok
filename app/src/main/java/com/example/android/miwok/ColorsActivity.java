@@ -25,4 +25,5 @@ public class ColorsActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_colors);
     }
+    as
 }
