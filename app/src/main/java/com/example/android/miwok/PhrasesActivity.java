@@ -17,6 +17,7 @@ package com.example.android.miwok;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.strings
 
 public class PhrasesActivity extends AppCompatActivity {
 
@@ -24,5 +25,9 @@ public class PhrasesActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_phrases);
+    }
+    
+    @Override
+    protected void onDestroy(Bundle savedInstanceState){
     }
 }
